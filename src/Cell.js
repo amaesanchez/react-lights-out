@@ -3,7 +3,9 @@ import "./Cell.css";
 
 /** A single cell on the board.
  *
- * This has no state --- just two props:
+ * This has no state --- just three props:
+ *
+ *  -coord - coordinate of the cell
  *
  * - flipCellsAroundMe: a function rec'd from the board which flips this
  *      cell and the cells around of it
